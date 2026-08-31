@@ -1,3 +1,0 @@
-# Alias de compatibilidad. La definicion productiva vive en docker-compose.yml.
-include:
-  - path: ./docker-compose.yml
