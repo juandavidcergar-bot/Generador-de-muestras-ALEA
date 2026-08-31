@@ -1,0 +1,51 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# builds
+dist/
+build/
+.out/
+.next/
+coverage/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# env
+.env
+.env.*
+!**/.env*.example
+
+# Runtime data must live outside the repository (normally /docker/alea).
+/backups/
+/database/
+/uploads/
+/logs/
+/certs/
+/config/
+*.dump
+*.dump.gz
+*.backup
+*.backup.gz
+*.sql
+*.sql.gz
+.pgpass
+
+# Private keys and certificate bundles
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Electron build outputs
+frontend/release/
+frontend/dist/
+frontend/out/
+**/win-unpacked/
+*.exe
+*.asar
